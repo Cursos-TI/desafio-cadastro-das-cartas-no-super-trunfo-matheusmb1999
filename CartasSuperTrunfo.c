@@ -18,6 +18,8 @@ int main(){
     printf("Carta A01: \n");
     printf("Digite a letra do estado (De A a H): ");
     scanf(" %c", &estado1); //É preciso colocar um espaço antes do %c, apenas para ler caractere
+
+    //Preenchimento dos dados da Primeira Carta
     printf("Digite o Código da carta (Letra + Número de 01 a 04): ");
     scanf("%s", codigo1);
 

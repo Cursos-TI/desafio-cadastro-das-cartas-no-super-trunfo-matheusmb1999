@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+    //Versão final, revisada
     //Variáveis separadas para cada atributo da cidade
     char estado1, estado2; //Uma letra de 'A' a 'H' representando um dos oito estados
     char codigo1[50], codigo2[50]; //A letra do estado seguida de um número de 01 a 04

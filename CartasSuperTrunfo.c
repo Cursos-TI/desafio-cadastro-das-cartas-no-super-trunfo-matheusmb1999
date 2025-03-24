@@ -14,12 +14,10 @@ int main(){
     float superPoder1, superPoder2; //Soma de popul, área, PIB, pontos, PIB P.C e o inverso da dens. popul.
     int resultado; //Comparação das cartas
 
-    //Primeiro será solicitado que seja preenchido os dados, o retorno das duas cartas será no final
+    //Primeiro será solicitado que seja preenchido os dados da primeira carta, o retorno das duas cartas será no final
     printf("Carta A01: \n");
     printf("Digite a letra do estado (De A a H): ");
     scanf(" %c", &estado1); //É preciso colocar um espaço antes do %c, apenas para ler caractere
-
-    //Preenchimento dos dados da Primeira Carta
     printf("Digite o Código da carta (Letra + Número de 01 a 04): ");
     scanf("%s", codigo1);
 
